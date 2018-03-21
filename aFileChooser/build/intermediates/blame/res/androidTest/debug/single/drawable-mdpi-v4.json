@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_folder.png",
+        "source": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_folder.png"
+    },
+    {
+        "merged": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_provider.png",
+        "source": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_provider.png"
+    },
+    {
+        "merged": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_file.png",
+        "source": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_file.png"
+    },
+    {
+        "merged": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_chooser.png",
+        "source": "D:\\android\\Gateway\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_chooser.png"
+    }
+]

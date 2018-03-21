@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wooyoung.student.gateway.MainActivity"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:text="사용자 :"/>
+            <TextView android:id="@+id/memId"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="불꽃센서 값 :"/>
+            <TextView android:id="@+id/flameValue"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="온도센서 값 :"/>
+            <TextView android:id="@+id/temperatureValue"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="화재여부 :"/>
+            <TextView android:id="@+id/flameChk"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="송신 :"/>
+            <TextView android:id="@+id/sendDate"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="이미지파일 :"/>
+            <TextView android:id="@+id/camFile"/>
+        </TableRow>
+
+    </TableLayout>
+    <fragment
+        android:id="@+id/cameraContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.wooyoung.student.gateway.CameraFragment"
+        tools:layout="@layout/fragment_camera"/>
+</LinearLayout>
